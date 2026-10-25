@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jbreier.com/sitemap.xml
