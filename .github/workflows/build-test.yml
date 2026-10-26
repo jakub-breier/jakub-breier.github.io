@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - jekyll-source
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -18,15 +19,21 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
-      - name: Pull al-folio Docker image
-        run: docker compose pull jekyll
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick jupyter-nbconvert
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.2'
+          bundler-cache: true
 
       - name: Build website
-        run: |
-          docker compose run --rm --no-deps \
-            -e JEKYLL_ENV=production \
-            jekyll bash -lc \
-            'bundle install && bundle exec jekyll build --lsi'
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --lsi
 
       - name: Verify generated website
         run: |
