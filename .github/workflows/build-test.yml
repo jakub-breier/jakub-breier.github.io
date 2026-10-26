@@ -42,3 +42,11 @@ jobs:
           test -f _site/assets/css/main.css
           echo "Jekyll build successful"
 
+
+      - name: Upload generated website
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyll-preview
+          path: _site/
+          retention-days: 7
+
