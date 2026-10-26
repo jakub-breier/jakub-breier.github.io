@@ -26,7 +26,7 @@ jobs:
           docker compose run --rm --no-deps \
             -e JEKYLL_ENV=production \
             jekyll bash -lc \
-            'rm -f Gemfile.lock && bundle exec jekyll build --lsi'
+            'bundle install && exec jekyll build --lsi'
 
       - name: Verify generated website
         run: |
