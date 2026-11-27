@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: Physical security of cryptography and embedded artificial intelligence
+description:
 nav: true
 nav_order: 1
 ---
