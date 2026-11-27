@@ -37,6 +37,6 @@ My research includes contributions to cryptographic primitives such as DEFAULT, 
 
 Before joining qtlabs, I was **Senior Cybersecurity Manager at TTControl** in Vienna, working on product security and ISO/SAE 21434 across embedded control systems. Earlier, I served as a **Senior Scientist at Silicon Austria Labs**, **Principal Research Fellow at HP-NTU Digital Manufacturing Corporate Lab**, and held research and security-evaluation roles at **Underwriters Laboratories (UL)** and **Temasek Laboratories** in Singapore.
 
-I hold a Ph.D. in Information Security and am a **Certified Information Systems Security Professional (CISSP)** and **Certified Automotive Cybersecurity Professional (CACSP)**. Across both research and industry, I am interested in understanding how systems fail under realistic attacks and in translating that understanding into more secure designs.
+I hold a Ph.D. in Applied Informatics and am a **Certified Information Systems Security Professional (CISSP)** and **Certified Automotive Cybersecurity Professional (CACSP)**. Across both research and industry, I am interested in understanding how systems fail under realistic attacks and in translating that understanding into more secure designs.
 
 ---
