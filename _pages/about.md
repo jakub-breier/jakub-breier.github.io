@@ -29,7 +29,10 @@ I am currently a **Principal Security Architect at [qtlabs](https://www.qtlabs.a
 * **Cryptography and Quantum Communication:** Symmetric and post-quantum cryptography, secure implementations, and the practical security of QKD systems and their classical components.
 * **Security Architecture and Assurance:** Threat modeling, security-by-design, and implementation assurance for complex systems, from automotive electronics to quantum communication infrastructure.
 
-My research includes contributions to cryptographic primitives such as DEFAULT, Baksheesh, and ASCON-SIGN. I am also the author of *Cryptography and Embedded Systems Security* (Springer, 2024).
+My research includes contributions to cryptographic primitives such as DEFAULT, Baksheesh, and ASCON-SIGN. I also co-authored *Cryptography and Embedded Systems Security* (Springer, 2024) and co-edited *Automated Methods in Cryptographic Fault Analysis* (Springer, 2019).
+
+
+More about my [research]({{ '/research/' | relative_url }}), [teaching]({{ '/teaching/' | relative_url }}), and [academic service]({{ '/service/' | relative_url }}).
 
 ---
 

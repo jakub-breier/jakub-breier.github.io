@@ -4,7 +4,7 @@ permalink: /talks/
 title: invited talks
 description: 
 nav: true
-nav_order: 2
+nav_order: 5
 ---
 
 AI-accelerated Implementation Testing: Research vs. Practice. Open Tools, Interfaces, and Metrics for Implementation Security Testing - OPTIMIST Hour, Online, 10 April 2025. [-pdf-](../assets/pdf/OPTIMIST_Breier.pdf)

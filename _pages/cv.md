@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 description: 
 nav: true
-nav_order: 3
+nav_order: 6
 ---
 If my CV does not load properly, you can directly download it here: [-pdf-](../assets/pdf/breier_cv_nov27.pdf)
 
