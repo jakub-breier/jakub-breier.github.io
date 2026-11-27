@@ -13,6 +13,21 @@ My research investigates how cryptographic and machine-learning implementations 
 
 My work addresses side-channel analysis and fault injection attacks on cryptographic devices, from microcontroller software to hardware implementations. A particular focus is automating security evaluation and understanding how architectural and algorithmic choices affect resistance to physical attacks.
 
+<div class="research-photo-grid research-photo-grid-3" role="group" aria-label="Cryptographic implementation security experiments">
+  <figure>
+    <a href="{{ '/assets/img/research-pulse-generator.webp' | relative_url }}"><img src="{{ '/assets/img/research-pulse-generator.webp' | relative_url }}" alt="AVIR pulse generator and Arduino UNO board" loading="lazy" decoding="async"></a>
+    <figcaption>Pulse generator and microcontroller test platform.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/assets/img/research-virtex5-ir.webp' | relative_url }}"><img src="{{ '/assets/img/research-virtex5-ir.webp' | relative_url }}" alt="Infrared microscopy image of a Virtex-5 FPGA" loading="lazy" decoding="async"></a>
+    <figcaption>Infrared microscopy of a Virtex-5 FPGA.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/assets/img/research-side-channel.webp' | relative_url }}"><img src="{{ '/assets/img/research-side-channel.webp' | relative_url }}" alt="Oscilloscope, laptop and ChipWhisperer measurement setup" loading="lazy" decoding="async"></a>
+    <figcaption>Oscilloscope and ChipWhisperer side-channel measurement setup.</figcaption>
+  </figure>
+</div>
+
 **Research topics**
 
 - Laser and electromagnetic fault injection, fault characterization, and differential fault analysis.
@@ -33,6 +48,17 @@ My work addresses side-channel analysis and fault injection attacks on cryptogra
 
 This research direction investigates the implementation-level security of neural networks deployed on embedded and edge devices. My work explores how physical attacks can affect model confidentiality and integrity, how leakage and fault susceptibility can be measured, and how countermeasures can be designed for resource-constrained platforms.
 
+<div class="research-photo-grid research-photo-grid-2" role="group" aria-label="Embedded and Edge AI security experiments">
+  <figure>
+    <a href="{{ '/assets/img/research-embedded-emfi.webp' | relative_url }}"><img src="{{ '/assets/img/research-embedded-emfi.webp' | relative_url }}" alt="ChipSHOUTER probe above an embedded development board" loading="lazy" decoding="async"></a>
+    <figcaption>Electromagnetic fault injection on an embedded development board.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/assets/img/research-ncs2-emfi.webp' | relative_url }}"><img src="{{ '/assets/img/research-ncs2-emfi.webp' | relative_url }}" alt="ChipSHOUTER and decased Intel Neural Compute Stick 2 on a positioning platform" loading="lazy" decoding="async"></a>
+    <figcaption>EMFI evaluation setup for an Intel Neural Compute Stick 2.</figcaption>
+  </figure>
+</div>
+
 **Research topics**
 
 - Fault attacks on neural-network inference and training.
@@ -49,3 +75,15 @@ This research direction investigates the implementation-level security of neural
 - [Guess My Weight: Profiled Side-Channel Recovery of Floating-Point Neural-Network Weights]({{ '/publications/' | relative_url }}#fillo2026guess) — SPACE 2026, accepted.
 
 For recent manuscripts, see the [preprints section]({{ '/publications/' | relative_url }}#preprints).
+
+<style>
+.research-photo-grid { display: grid; gap: 1rem; margin: 1.5rem 0; }
+.research-photo-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.research-photo-grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 680px; margin-left: auto; margin-right: auto; }
+.research-photo-grid figure { margin: 0; min-width: 0; }
+.research-photo-grid a { display: block; border-radius: 6px; background: rgba(128,128,128,.07); overflow: hidden; }
+.research-photo-grid img { display: block; width: 100%; height: 180px; object-fit: contain; }
+.research-photo-grid-2 img { height: 300px; }
+.research-photo-grid figcaption { font-size: .85rem; line-height: 1.4; margin: .55rem 0 0; text-align: center; color: var(--global-text-color-light, inherit); }
+@media (max-width: 575px) { .research-photo-grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .research-photo-grid img { height: 145px; } .research-photo-grid-2 img { height: 220px; } }
+</style>
