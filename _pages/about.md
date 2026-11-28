@@ -1,6 +1,8 @@
 ---
 layout: about
 title: about
+seo_title: "Jakub Breier | Hardware Security Researcher"
+seo_description: "Jakub Breier, hardware security researcher and Principal Security Architect at qtlabs. Research on fault injection, side-channel analysis, cryptography and edge AI security."
 permalink: /
 subtitle: Hardware Security Researcher & Principal Security Architect
 

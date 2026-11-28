@@ -41,6 +41,7 @@ jobs:
           test -f _site/index.html
           test -f _site/publications/index.html
           test -f _site/assets/css/main.css
+          python3 bin/check-site-metadata.py
 
       - name: Upload preview
         if: github.ref == 'refs/heads/jekyll-source'

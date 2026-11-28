@@ -1,6 +1,8 @@
 ---
 layout: page
 title: service
+seo_title: "Academic Service | Jakub Breier"
+seo_description: "Jakub Breier's editorial boards, conference track chair roles, program committees, doctoral examinations and grant reviewing in hardware security and cryptography."
 permalink: /service/
 description: Editorial, conference and academic service
 nav: true

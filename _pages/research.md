@@ -1,6 +1,8 @@
 ---
 layout: page
 title: research
+seo_title: "Research | Jakub Breier"
+seo_description: "Research on the physical security of cryptographic implementations and edge AI: fault injection, side-channel analysis, automated evaluation and countermeasures."
 permalink: /research/
 description:
 nav: true

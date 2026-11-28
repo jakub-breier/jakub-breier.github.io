@@ -1,6 +1,8 @@
 ---
 layout: page
 title: teaching
+seo_title: "Teaching | Jakub Breier"
+seo_description: "University courses, textbooks and student supervision by Jakub Breier in cryptography, hardware security and secure embedded systems."
 permalink: /teaching/
 description: University courses, teaching materials and student supervision
 nav: true

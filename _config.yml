@@ -8,7 +8,7 @@ middle_name:
 last_name: Breier
 email: jbreier@jbreier.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A personal website of Jakub Breier
+  Jakub Breier, hardware security researcher and Principal Security Architect at qtlabs. Research on fault injection, side-channel analysis, cryptography and edge AI security.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jakub breier, cryptography, hardware security, science  # add your own keywords or leave empty
@@ -57,9 +57,9 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/jakub.jpeg # Default social preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -74,7 +74,7 @@ telegram_username: # your Telegram user name
 scholar_userid: LOENK6IAAAAJ
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: #0000-0002-7844-5267
+orcid_id: 0000-0002-7844-5267
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons

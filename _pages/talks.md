@@ -2,6 +2,8 @@
 layout: page
 permalink: /talks/
 title: invited talks
+seo_title: "Invited Talks | Jakub Breier"
+seo_description: "Invited scientific talks and presentation slides by Jakub Breier on fault injection, side-channel analysis, cryptography, embedded systems and AI security."
 description: 
 nav: true
 nav_order: 5

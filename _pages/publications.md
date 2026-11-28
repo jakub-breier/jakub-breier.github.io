@@ -2,6 +2,8 @@
 layout: page
 permalink: /publications/
 title: publications
+seo_title: "Publications | Jakub Breier"
+seo_description: "Research papers, accepted publications, preprints, books and book chapters by Jakub Breier in hardware security, cryptography and embedded AI security."
 description: Research publications, preprints and books
 nav: true
 nav_order: 2
